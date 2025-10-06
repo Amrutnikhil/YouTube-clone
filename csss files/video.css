@@ -1,0 +1,89 @@
+.lawde,
+.lawde2{
+    width: 100%;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.text,
+.text2{
+    width: 100%;        
+    font-size: 15px;  
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+            
+.cutiya1{
+    width: 100%;
+    font-weight: bold;
+}
+.channel1{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.profile1,
+.profile2{
+    width: 35px;
+}
+.first-video,
+.second-video{
+    width: 100%;
+}
+.part2{
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 0;
+}
+.part3,
+.text2{
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 0;
+}
+            
+.grid{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+.total-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 25px;
+    margin-left: 10px;
+}
+
+@media (max-width: 900px){
+    .total-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 900px) and (max-width: 1400px){
+    .total-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1400px){
+    .total-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.video-one{
+    position: relative;
+}
+.video-time{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 4px;
+    bottom: 17px;
+    right: 8px;
+    position: absolute;
+}
+
+
